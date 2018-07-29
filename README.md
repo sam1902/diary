@@ -1,6 +1,8 @@
 # Diary
 *Some sort of online diary anyone can edit without password, I guess.*
 
+![Screenshot of the app](https://raw.githubusercontent.com/sam1902/diary/master/screenshot.png)
+
 This project is just a quick JQuery/PHP/SQLite application that acts as an online diary which 
 doesn't required you to remember any password and can be edited from anywhere in the world.
 
