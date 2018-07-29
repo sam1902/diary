@@ -1,0 +1,79 @@
+body {
+	background-color: #edd4b4; /* Darker Beige */
+	font-family: 'Merriweather', Georgia, Times, serif;
+
+}
+
+textarea {
+	height: 250px;
+	min-width: 100%;
+	font-size: 20px;
+	background-color: #F6E7C8; /* Lighter Beige */
+	border: none;
+	color: #000;
+
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	textarea {
+		font-size: 15px;
+	}
+}
+.main{
+	padding-bottom: 20px;
+	border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border: 1px solid #AF9778;
+}
+
+#previous-entries{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* Style for fetched and added entries */
+.entry {
+
+}
+
+.timestamp {
+	text-align: left;
+	font-size: 15px;
+	color: #af9778;
+	border: 1px solid #AF9778;
+	border-top: none; border-right: none; border-left: none;
+}
+
+#upload-btn{
+	min-width: 100%;
+	border-radius: 0px 0px 5px 5px;
+	border-color: #AF9778;
+	background-color: #86755d;
+}
+
+.title {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.flash {
+    -webkit-animation-name: flash-animation;
+    -webkit-animation-duration: 0.3s;
+
+    animation-name: flash-animation;
+    animation-duration: 0.3s;
+}
+
+@-webkit-keyframes flash-animation {
+    from { background: white; }
+    to   { background: default; }
+}
+
+@keyframes flash-animation {
+    from { background: white; }
+    to   { background: default; }
+}
+

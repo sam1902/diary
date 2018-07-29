@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Diary</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</head>
+<body>
+<div class="container">
+	<div class="row title">
+		<div class="col-md-12 text-center">
+			<h1>Diary</h1>
+			<p> Some sort of online diary anyone can edit without password, I guess.
+		</div>
+	</div>
+	<div class="row main">
+		<div class="col-md-12 text-center">
+			<div id="previous-entries">
+			</div>
+			<textarea id="main-textarea" placeholder="Thoughts go here..."></textarea>
+			<button onclick="uploadText(); loadText()" id="upload-btn"  class="btn btn-left btn-block btn-md btn-success"><i class="fas fa-upload"></i></a>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
+
